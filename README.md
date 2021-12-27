@@ -3,7 +3,7 @@
 # How to run
 - Install `Tampermonkey` extension for chrome
 - Copy all script in `index.ts` to Tampermonkey.
-- Add extension 'alienwworlds-auto.zip' to chrome.
+- Add extension `alienwworlds-auto.zip` to chrome.
 - Login to `https://play.alienworlds.io/` and enjoy.
 
 
