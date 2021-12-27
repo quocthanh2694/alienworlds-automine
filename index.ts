@@ -40,7 +40,7 @@
             if(btns[x].textContent.includes('Claim Mine')) {
                 log('Claim Mine Clicked');
                 btns[x].click();
-                delay5Second = 10;
+                delay5Second = 5;
                 break;
             } else if(btns[x].textContent.includes('Mine')) {
                 log('Mine Clicked');
@@ -58,7 +58,7 @@
             log('Delay second - 1 : ' + delay5Second);
             delay5Second = delay5Second -1;
         }
-    },5000)
+    },10000)
 
 
 
