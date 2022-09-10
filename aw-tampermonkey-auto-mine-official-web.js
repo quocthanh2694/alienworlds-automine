@@ -13,8 +13,8 @@
 (function () {
   "use strict";
     var resultId = "tool-auto-av1.0.0";
-    var timeToMine = 5 * 1000; // 10s
-    var timeToReload = 12 * 60 * 60 * 1000; // 12h
+    var timeToMine = 15 * 1000; // 10s
+    var timeToReload = 3 * 60 * 60 * 1000; // 12h
 
     startTool();
 
