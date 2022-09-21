@@ -15,6 +15,8 @@
     var resultId = "tool-auto-av1.0.0";
     var timeToMine = 15 * 1000; // 10s
     var timeToReload = 3 * 60 * 60 * 1000; // 12h
+    var startHour = 5;
+    var endHour = 22;
 
     startTool();
 
@@ -23,7 +25,9 @@
             initLog();
             play();
             setInterval(function(){
-                play();
+                if(new Date().getHours() > startHour && new Date().getHours() < endHour) {
+                    play();
+                }
             }, timeToMine)
         },2000);
     }
